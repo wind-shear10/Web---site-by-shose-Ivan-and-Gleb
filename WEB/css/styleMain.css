@@ -1,0 +1,563 @@
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    * {
+        font-family: "Open Sans";
+        /* box-sizing: border-box; */
+    }
+    
+    body {
+        margin: 0;
+        color: #FFFF;
+        background-color: rgb(33, 33, 33);
+    }
+    
+    header {
+        position: fixed;
+        z-index: 6;
+    }
+    
+    H3 {
+        margin-top: 10vh;
+    }
+    
+    a {
+        color: #FFFF;
+        text-decoration: none;
+    }
+    
+    .header1 {
+        width: 100vw;
+        height: 7vh;
+        background-color: #212121;
+        display: flex;
+        align-items: last baseline;
+        justify-content: left;
+    }
+    
+    .header11 {
+        width: 22vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 15vw;
+        padding-bottom: 1vh;
+    }
+    
+    .logo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /*
+    padding-left: 10vw;
+    */
+    }
+    
+    .Lion {
+        width: 2vw;
+    }
+    
+    .Refreshoes {
+        padding-left: 0.3vw;
+        width: 6vw;
+    }
+    
+    .pWork {
+        width: 5.79vw;
+        font-size: 0.8vw;
+        margin: 0;
+    }
+    
+    .apps {
+        display: flex;
+        flex-direction: row;
+        width: 9vw;
+        justify-content: space-evenly;
+    }
+    
+    .CircleForApps {
+        width: 2.4vw;
+        height: 2.4vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: #9b6d44;
+    }
+    
+    .app {
+        width: 1.4vw;
+    }
+    
+    .header12 {
+        width: 30vw;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 1vh;
+        padding-left: 25vw;
+    }
+    
+    .MarkerDiv {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .Marker {
+        width: 1.5vw;
+    }
+    
+    .MarkerText {
+        width: 11.5vw;
+        font-size: 0.8vw;
+        padding-left: 0.5vw;
+        margin: 0;
+    }
+    
+    .phone {
+        width: 12vw;
+        height: 2.4vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-top-left-radius: 50vw;
+        border-top-right-radius: 50vw;
+        border-bottom-left-radius: 50vw;
+        border-bottom-right-radius: 50vw;
+        background-color: #9b6d44;
+    }
+    
+    .phoneIMG {
+        width: 1vw;
+    }
+    
+    .phoneText {
+        font-size: 1vw;
+        margin: 0;
+    }
+    
+    .header2 {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height: 3vh;
+        background-color: #9B6D44;
+    }
+    
+    .header21 {
+        width: 28vw;
+        font-size: 1vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    .downArrow {
+        width: 0.8vw;
+        padding-left: 0.5vw;
+    }
+    
+    .MainShoe {
+        width: 100%;
+        background-attachment: fixed;
+    }
+    
+    .MainContent {
+        margin: 5vw;
+    }
+    
+    .Inter {
+        width: 75vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .InterText {
+        font-size: 2.5vw;
+    }
+    
+    .InterText:nth-child(2) {
+        padding-left: 20vw;
+    }
+    
+    .bread {
+        font-size: 0.7vw;
+        padding-bottom: 1vh;
+    }
+    
+    .breaddot {
+        color: #AEAEAE;
+    }
+    
+    .breaddot:nth-child(3) {
+        color: #FFFF
+    }
+    
+    .EnterValues {
+        width: 20vw;
+        height: 16vw;
+        display: flex;
+        /*justify-content: center;*/
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(30, 30, 30);
+        box-shadow: 0 0 0.7vw 0.5vw rgb(28, 28, 28);
+        border: rgb(24, 24, 24) solid 1px;
+        border-radius: 32px;
+        color: rgb(155, 109, 68);
+    }
+    
+    .EnterValues2 {
+        height: 22.5vh;
+    }
+    
+    .EnterValuesMaindiv {
+        width: 50vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .EnterValues>.EnterValues_p {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .EnterValues_div {
+        font-size: 0.55vw;
+        color: #FFFF;
+        display: flex;
+        flex-direction: row;
+        width: 75%;
+        justify-content: space-between;
+    }
+    
+    .EnterValues_div>input {
+        width: 0.75vw;
+    }
+    
+    .EnterValues>input {
+        width: 18vw;
+        margin-top: 0.5vh;
+        padding-left: 1vw;
+        color: #FFFF;
+        background-color: rgb(30, 30, 30);
+        height: 3vh;
+        border: #FFFF 1px solid;
+        border-radius: 50px;
+    }
+    
+    .EnterValues>.Password {
+        width: 18vw;
+        margin-top: 0.5vh;
+        padding-left: 0.78vw;
+        color: #FFFF;
+        background-color: rgb(30, 30, 30);
+        height: 3vh;
+        border: #FFFF 1px solid;
+        border-radius: 50px;
+    }
+    
+    img[src="images/BackEye.png"] {
+        width: 1.2vw;
+        height: 1vh;
+        padding-top: 0.2vh;
+    }
+    
+    .EnterValues>.Password>input {
+        width: 15.7vw;
+        color: #FFFF;
+        background-color: rgb(30, 30, 30);
+        height: 2.3vh;
+        border: none;
+        border-radius: 50px;
+    }
+    
+    .recoveryPassword {
+        width: 11vw;
+        font-size: 0.8vw;
+        margin-top: 0.5vh;
+        margin-bottom: 0.5vh;
+        padding-left: 1.8vw;
+        text-align: center;
+        text-decoration: underline;
+        color: rgb(155, 109, 68);
+    }
+    
+    .mainSelection {
+        width: 14vw;
+        font-size: 1vw;
+    }
+    /* 
+.MainSection {
+}
+.btn {
+}
+
+.applicationDataBase_Main {
+} */
+    
+    .applicationDataBase {
+        width: 28.5vw;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
+    .selectionFromRadioList {
+        width: 40vw;
+        height: 20vh;
+        display: flex;
+        align-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .selectionFromRadioList_div {
+        width: 2vw;
+        height: 2vw;
+        border: #9B6D44 solid 1px;
+        border-radius: 50%;
+        margin-left: 5vw;
+        margin-right: 1vw;
+    }
+    
+    #Radio-button {
+        width: 1.5vw;
+        height: 1.5vw;
+        border: #9B6D44 solid 5px;
+    }
+    
+    .twoLists {
+        width: 50vw;
+        display: flex;
+        justify-content: start;
+        flex-flow: row-reverse stretch;
+        align-items: end;
+    }
+    
+    .Select {
+        width: 20vw;
+        height: 4vh;
+        font-size: 0.95vw;
+        border: #FFFF solid 1px;
+        background-color: rgb(33, 33, 33);
+        color: #FFFF;
+        border-radius: 32px;
+    }
+    
+    .Select:nth-child(1) {
+        margin-right: 1vw;
+        margin-left: 1vw;
+    }
+    
+    option {
+        color: #FFFF;
+    }
+    /*
+.SectionBlockquote {
+}
+*/
+    
+    .blockquote {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgb(54, 42, 31);
+        border: 0.5vw solid rgb(54, 42, 31) fill;
+        border-left: 0.5vw solid rgb(155, 109, 68);
+    }
+    
+    .blockquoteIN {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
+    #THE“ {
+        font-family: "INER";
+        font-weight: 500;
+        font-size: 7vw;
+        width: 3vw;
+        color: rgb(155, 109, 68);
+        margin: 0;
+        margin-left: 1vw;
+        padding: 0;
+    }
+    
+    img[style="padding-left:1vw"] {
+        rotate: 180deg;
+    }
+    
+    .SC2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .Kakugodno {
+        width: 52vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    ul>li {
+        list-style: disc;
+    }
+    
+    .MAP {
+        width: 90vw;
+        height: 69vh;
+        display: flex;
+        align-items: center;
+        background-image: url(/WEB/images/Basemap\ image2.png);
+        margin-top: 3vh;
+    }
+    
+    #map1 {
+        overflow: hidden;
+        width: 86.5vw;
+        height: 72vh;
+    }
+    
+    .divMAP {
+        margin-left: 15vw;
+        width: calc(21vw*1.5);
+        height: 21vw;
+        border: solid 1px #FFFF;
+        border-radius: 16px;
+        padding-inline: 1vw;
+        color: #FFFF;
+        z-index: 4;
+        background-color: rgb(0, 0, 0);
+        opacity: 60%;
+        z-index: 2;
+    }
+    /*
+
+.MainTextDivMap {
+    font-size: 4.5vw;
+    font-weight: 600;
+    margin: 0;
+
+}
+.TextDivMap {
+    margin: 0;
+    font-weight: 500;
+}
+
+*/
+    
+    footer {
+        height: 20vh;
+        background-color: #000;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .footerIMG {
+        width: 45vw;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    
+    #footer_IMG1 {
+        width: 5vw;
+        height: 11vh;
+        margin-right: 1vw;
+    }
+    
+    #footer_IMG2 {
+        width: 11vw;
+    }
+    
+    .footer_Text {
+        width: 17vw;
+    }
+    
+    .Links {
+        display: flex;
+        flex-direction: row;
+        margin-top: 3vh;
+    }
+    
+    .numberBTN {
+        margin-right: 3vw;
+    }
+    
+    #footer_links_text {
+        width: 17vw;
+        margin-top: 0;
+        margin-bottom: 2vh;
+    }
+    
+    #footer_Phone {
+        background-color: #FFFF;
+        color: #000;
+    }
+    
+    .links_links {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .gallery-item {
+        margin-right: 30px;
+    }
+    
+    .gallery-container {
+        position: relative;
+        width: 100vw;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        background-color: #111;
+    }
+    
+    .gallery {
+        display: flex;
+        justify-content: center;
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    .arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        border: none;
+        color: white;
+        padding: 10px 15px;
+        cursor: pointer;
+        font-size: 18px;
+        border-radius: 50%;
+        z-index: 1000;
+    }
+    
+    .arrow.left {
+        left: 10px;
+    }
+    
+    .arrow.right {
+        right: 10px;
+    }
+    
+    .arrow:hover {
+        background-color: rgba(255, 255, 255, 0.8);
+        color: black;
+    }
+    
+    .color1 {
+        background-color: black;
+    }
